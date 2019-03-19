@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {HomeComponent} from './components/home/home.component';
+import {SliderComponent} from './components/slider/slider.component';
 import {AboutComponent} from './components/about/about.component';
 import {ContactComponent} from './components/contact/contact.component';
-import {WorkComponent} from './components/work/work.component';
+import {PortfolioComponent} from './components/portfolio/portfolio.component';
+
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
+  {path: '', component: SliderComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'work', component: WorkComponent},
+  {path: 'portfolio', component: PortfolioComponent},
   {path: 'contact', component: ContactComponent}
 
 ];

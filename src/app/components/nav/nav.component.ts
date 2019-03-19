@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { faComment } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faSuitcase } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-nav',
@@ -8,6 +11,9 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
 
   menuOpened = false;
+  faComment = faComment;
+  faUser = faUser;
+  faSuitcase = faSuitcase;
 
   constructor() { }
 

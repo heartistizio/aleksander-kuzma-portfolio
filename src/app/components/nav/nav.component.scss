@@ -2,13 +2,16 @@ header {
   box-sizing: border-box;
   background: #30394D;
   height: 13rem;
+  margin: 0 0 2rem 0;
 
   .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 2rem 1rem;
 
     .logo {
+      width: 25%;
 
       img {
         margin: 0.5rem 0;
@@ -19,41 +22,42 @@ header {
       }
     }
 
-    .hamburger {
-      margin: 1.5rem 0;
-      padding: 0 2rem;
+    nav {
+      color: #FFFFFF;
+      background-color: #30394D;
+      width: 75%;
 
-      button {
-        fill: #FFFFFF;
-        background: 0;
-        border: 0;
-        cursor: pointer;
-      }
-    }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
 
-    }
+        li {
+          a {
+            justify-self: center;
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #FFFFFF;
+            cursor: pointer;
+            fa-icon {
+              font-size: 3.2rem;
+            }
 
-  nav {
-    color: #FFFFFF;
-    background-color: #30394D;
+            &:hover {
+              color: #FE3D4E;
+              transition: all 0.5s ease;
+            }
+          }
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 1rem 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      li {
-        justify-self: center;
-
-        a {
-          text-transform: uppercase;
-          font-size: 1.6rem;
-          font-weight: bold;
-          color: #FFFFFF;
         }
       }
     }
