@@ -1,3 +1,19 @@
-<p>
-  about works!
-</p>
+<section id="about" class="container">
+  <div class="description">
+    <h2>About me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. </p>
+  </div>
+  <ul *ngIf="infoTabs">
+    <li *ngFor="let infoTab of infoTabs">
+      <div [ngStyle]="{ 'background-color': infoTab.bgColor }">
+      <h3>{{infoTab.label}}</h3>
+      <ul>
+        <li *ngFor="let tabDesc of infoTab.descriptions">
+          <span>{{tabDesc.text}}</span>
+        </li>
+      </ul>
+      </div>
+    </li>
+  </ul>
+</section>

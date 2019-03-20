@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CarouselComponent } from 'angular-bootstrap-md';
 
 @Component({
   selector: 'app-root',

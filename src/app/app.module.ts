@@ -7,8 +7,9 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { SliderComponent } from './components/slider/slider.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { HomeComponent } from './components/home/home.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -16,13 +17,14 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     AboutComponent,
     ContactComponent,
     NavComponent,
-    SliderComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
