@@ -18,10 +18,11 @@ export class AboutComponent implements OnInit {
     },
     {
       label: 'Languages',
+      bgColor: '#00E676',
       descriptions: [
-        { text: 'HTML' },
-        { text: 'CSS' },
-        { text: 'JS(ES6, Angular, React)' }
+        { text: 'Polish Native' },
+        { text: 'English C1' },
+        { text: 'Norwegian B1' }
       ]
     }
   ];

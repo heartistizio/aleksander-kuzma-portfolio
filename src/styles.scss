@@ -17,9 +17,8 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto; padding: 0;
+section {
+  margin: 0; padding: 0;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
