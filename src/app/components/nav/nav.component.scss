@@ -1,6 +1,6 @@
 header {
   box-sizing: border-box;
-  background: #30394D;
+  background: #1D2731;
   margin: 0;
   position: sticky;
   top: 0;
@@ -27,7 +27,6 @@ header {
 
     nav {
       color: #FFFFFF;
-      background-color: #30394D;
       width: 75%;
 
       ul {
@@ -57,7 +56,7 @@ header {
             }
 
             &:hover {
-              color: #FE3D4E;
+              color: #D9B310;
               transition: all 0.5s ease;
             }
           }

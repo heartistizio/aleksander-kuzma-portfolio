@@ -1,0 +1,12 @@
+<section id="home" >
+  <div class="home">
+    <h1>Hello, I'm Alex </h1>
+
+
+    <mdb-carousel class="carousel" [animation]="'slide'">
+      <mdb-carousel-item *ngFor="let slide of slides">
+        <img class="d-block w-50" [src]="slide.image" [alt]="slide.description">
+      </mdb-carousel-item>
+    </mdb-carousel>
+  </div>
+</section>

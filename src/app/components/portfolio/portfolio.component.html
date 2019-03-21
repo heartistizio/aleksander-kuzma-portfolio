@@ -1,0 +1,13 @@
+<section id="portfolio">
+  <div class="portfolio">
+    <ul *ngIf="portfolioItems">
+      <li *ngFor="let portfolioItem of portfolioItems">
+        <div class="portfolio-element">
+          <h3>{{portfolioItem.label}}</h3>
+          <img [src]="portfolioItem.image" alt=""/>
+          <p>{{portfolioItem.description}}</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
