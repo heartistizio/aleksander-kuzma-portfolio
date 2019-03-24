@@ -10,7 +10,6 @@ import { faSuitcase } from '@fortawesome/free-solid-svg-icons';
 })
 export class NavComponent implements OnInit {
 
-  menuOpened = false;
   faComment = faComment;
   faUser = faUser;
   faSuitcase = faSuitcase;
@@ -20,7 +19,4 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
 
-  toggleMenu() {
-    this.menuOpened = !this.menuOpened;
-  }
 }

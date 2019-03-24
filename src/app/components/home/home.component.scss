@@ -1,4 +1,4 @@
-section {
+header {
 
   .home {
     margin: 0 auto;
@@ -31,7 +31,6 @@ section {
     content: '';
     position: absolute;
     margin: 0; padding: 0;
-    top: 100%;
     left: 50%;
     transform: translate(-50%, 0);
     width: 0;

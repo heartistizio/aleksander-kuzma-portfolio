@@ -1,13 +1,8 @@
 <section id="portfolio">
   <div class="portfolio">
     <ul *ngIf="portfolioItems">
-      <li *ngFor="let portfolioItem of portfolioItems">
-        <div class="portfolio-element">
-          <h3>{{portfolioItem.label}}</h3>
-          <img [src]="portfolioItem.image" alt=""/>
-          <p>{{portfolioItem.description}}</p>
-        </div>
-      </li>
+      <app-portfolio-element *ngFor="let portfolioItem of portfolioItems" [portfolioItem]="portfolioItem">
+      </app-portfolio-element>
     </ul>
   </div>
 </section>
