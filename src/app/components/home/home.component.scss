@@ -30,7 +30,7 @@ header {
   &::after {
     content: '';
     position: absolute;
-    margin: 0; padding: 0;
+    margin: -0.2rem 0 0; padding: 0;
     left: 50%;
     transform: translate(-50%, 0);
     width: 0;

@@ -1,4 +1,4 @@
-section {
+footer {
   .contact {
     height: 100%;
     background-color: #1D2731;
@@ -7,20 +7,29 @@ section {
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    h1{
+
+    h1 {
       font-size: 3.2rem;
     }
+
     form {
       display: flex;
       flex-direction: column;
       align-items: center;
       font-size: 1.6rem;
+
       label {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0.5rem 0;
+
+        textarea {
+          resize: none;
+        }
       }
-      .cta{
+
+      .cta {
         background-color: #D9B310;
         color: #1D2731;
         border: 0;
